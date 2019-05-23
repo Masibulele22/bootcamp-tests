@@ -6,15 +6,15 @@ function totalPhoneBill(str) {
     console.log(str2);
     for (var i=0; i<str2.length; i++) {
       var str3 = str2[i];
-      if (str3.startsWith('sms')) {
-      totalSms++
+      if (str3 == 'sms') {
+        totalSms++
       }
-      else if (str3.startsWith('call')) {
+      else if (str3 == 'call') {
       totalCalls++
       }
   }
-    returns ('R' + (totalSms*0.65 + totalCalls*2.75).toFixed(2));
+    return ('R' + (totalSms*0.65 + totalCalls*2.75).toFixed(2));
 }
 
-var rewards = totalPhoneBill('call, sms, call, sms, sms');
-var totalBill = rewards;
+var rewards = totalPhoneBill('233323');
+// var totalBill = rewards;

@@ -8,4 +8,4 @@ function countRegNumber(str) {
 }
 
 var outcomes = countRegNumber('CA 182736,CY 523519,CJ 812328');
-// console.log(slt)
+var zero = countRegNumber(' ');

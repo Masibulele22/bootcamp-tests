@@ -6,3 +6,4 @@ function yearsAgo(year) {
 }
 
 var iziphumo = (yearsAgo(2012));
+var iziphumo1 = (yearsAgo(" "));

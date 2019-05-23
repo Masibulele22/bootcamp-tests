@@ -4,3 +4,4 @@ function regCheck(reg, loc) {
 }
 
 var reg = regCheck('ML 22 3 GP','GP');
+var loc = regCheck(" ");
